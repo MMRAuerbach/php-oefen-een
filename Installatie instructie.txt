@@ -1,0 +1,18 @@
+Installatie instructie
+
+KOPIEREN PHP BESTANDEN
+Kopieer de PHP bestanden naar jouw XAMPP project
+ - Op de school computers kopieer het naar Mijn Documenten\htdocs\php-demo
+ - Op de school PC kan je dan naar http://demo.localhost of http://php-demo.localhost surfen
+Pas het in het bestand lib/database.php de inloggegevens aan naar jouw database.
+ - Standaard XAMPP gebruik je root met leeg wachtwoord ($pass = '';)
+
+KLAAR MAKEN DATABASE
+Met XAMPP hoef je geen gebruiker aan te maken
+Ga via het XAMPP controlpanel naar MySQL en klik op de ADMIN button om PHPMyAdmin te openen
+
+Maak een database aan (bijvoorbeeld test) en ga dan in PHPMyAdmin naar de tab IMPORT of IMPORTEREN
+ - Je hoeft geen opties aan te passen, klik op bestand kiezen en kopieer het .SQL bestand in de map waar deze handleiding ook staat (20211003 dp-dump test.sql)
+
+ Zorg ervoor dat MySQL en Apache draaien via het XAMPP controlpanel
+
